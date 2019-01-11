@@ -5,12 +5,18 @@ html, body{
     background-size: cover;
 }
 .form-wrapper{
-    font-size: 1.1em;
     background-color: rgba(255, 255, 255, .85) !important;
     border-radius: 10px;
-    width: 65% !important;
     margin: 7%;
-    padding: 1% 10%;
+    padding: 10px 10px;
+}
+.login-wrapper{
+    width: 35% !important;
+    height: 25% !important;
+}
+.register-wrapper{
+    width: 35% !important;
+    height: auto !important;
 }
 .credit{
     text-decoration: none;
@@ -32,7 +38,6 @@ button[type="submit"]{
 }
 input, textarea{
     background-color: rgba(255, 255, 255, .2) !important;
-    width: 85% !important;
 }
 .welcome{
     text-decoration: none;
